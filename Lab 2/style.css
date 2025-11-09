@@ -167,12 +167,12 @@ button:hover {
 .back-top-but {
     position: relative;
     top: -50px;
-    left: 577px;
+    left: 610px;
     color: white;
     background-color: #078e92;
     border: none;
     border-radius: 3px;
-    width: 13%;
+    width: 125%;
 
 }
 
