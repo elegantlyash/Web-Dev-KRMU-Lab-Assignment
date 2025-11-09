@@ -19,11 +19,12 @@
 
 
 <body>
-    <h1>Yash Vats</h1>
+    <h1 id="yv">Yash Vats</h1>
     <nav>
         <ul>
             <li><a href="#home">HOME</a></li>
             <li><a href="#about">ABOUT</a></li>
+            <li><a href="#projects">PROJECT</a></li>
             <li><a href="#contact">CONTACT</a></li>
         </ul>
     </nav>
@@ -36,43 +37,93 @@
             alt="Yash Vats" width="160">
         <p>I really enjoy learning more about web development and creating interesting project</p>
     </div>
-    <h2>My Projects</h2>
-    <ul>
-        <li><b>School Management Project:</b> A python code used to store data of students and teachers.</li>
-        <li><b>Form: </b>A form to store data for a individual using HTML. </li>
-        <li><b>Styling a Web Page: </b> Styling a Web page designed using HTML and CSS.</li>
-    </ul>
+    <h2 id="projects">My Projects</h2>
+    <section id="projects">
+        <div class="p1">
+            <b>School Management Project</b>
+            <br>
+            A python code used to store data of students and teachers.
+            <br>
+        </div>
+        <br>
+        <div class="p2">
+            <b>Form</b>
+            <br>
+            A form to store data for a individual using HTML.
+            <br>
+        </div>
+        <br>
+        <div class="p3">
+            <b>Styling a Web Page</b>
+            <br>
+            Styling a Web page designed using HTML and CSS.
+            <br>
+        </div>
+    </section>
+
     <h2>Technical Skills</h2>
-    <table border="1">
-        <th>Skill</th>
-        <th>Level</th>
-        <tr>
-            <td>Python</td>
-            <td>Beginner</td>
-        </tr>
-        <tr>
-            <td>HTML</td>
-            <td>Learning</td>
-        </tr>
-        <tr>
-            <td>CSS</td>
-            <td>Learning</td>
-        </tr>
-    </table>
+    <div class="table-container">
+        <table border="1">
+            <th>Skill</th>
+            <th>Level</th>
+            <tr>
+                <td>Python</td>
+                <td>Beginner</td>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>Learning</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Learning</td>
+            </tr>
+        </table>
+    </div>
     <h2 id="contact">Contact Me</h2>
-    <form action="#">
-        <label for="name">Name :</label>
-        <input type="text" id="name" name="name" placeholder="Enter your name">
-        <br><br>
-        <label for="email">Email :</label>
-        <input type="email" id="email" name="email" placeholder="Enter your Email">
-        <br><br>
-        <label for="message">Message :</label>
-        <br><br>
-        <textarea id="message" rows="4" cols="30" placeholder="Enter your message"></textarea>
-        <br><br>
-        <button type="submit">Send</button>
-    </form>
+    <div class="table-container2">
+        <table>
+            <form action="#">
+                <tr>
+                    <td>
+                        <label for="name">Name :</label>
+                    </td>
+                    <td>
+                        <input type="text" id="name" name="name" placeholder="Enter your name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email :</label>
+                    </td>
+                    <td>
+                        <input type="email" id="email" name="email" placeholder="Enter your Email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="message">Message :</label>
+                    </td>
+                    <td>
+                        <textarea id="message" rows="4" cols="30" placeholder="Enter your message"></textarea>
+                    </td>
+                </tr>
+                <td colspan="2">
+                    <button type="submit">Send</button>
+                </td>
+            </form>
+        </table>
+    </div>
+    <div class="back-top-but-cont">
+        <a href="#yv">
+            <button class="back-top-but">&uarr; Back to top</button>
+        </a>
+    </div>
+    <footer>
+        
+    </footer>
+
+
 </body>
 
 </html>
