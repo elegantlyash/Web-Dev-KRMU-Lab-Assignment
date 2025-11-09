@@ -82,7 +82,8 @@ li {
 }
 
 img {
-    border-radius: 100px;
+    width: 250px;
+    border-radius: 150px;
     border: 2px solid;
     margin: 10px;
 }
@@ -156,12 +157,13 @@ button {
     font-weight: bold;
     cursor: pointer;
     font-family: "Domine", serif;
-    width:47%;
+    width: 47%;
 }
 
 button:hover {
     background-color: #065867;
 }
+
 .back-top-but {
     position: relative;
     top: -50px;
@@ -171,18 +173,35 @@ button:hover {
     border: none;
     border-radius: 3px;
     width: 13%;
-    
+
+}
+
+hr {
+    border: 1.5px solid gray;
 }
 
 .back-top-but:hover {
     cursor: pointer;
-    background-color:#fd3866;
+    background-color: #fd3866;
     color: #065867;
     border: 1px solid #078e92;
 }
 
 .back-top-but-cont {
-    position: absolute;
+    position: absolute;
+}
+
+.git {
+    width: 40px;
+    height: auto;
+    margin-left: 15px;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
 }
 
 footer {
