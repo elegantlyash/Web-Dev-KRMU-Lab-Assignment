@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    background-color: #078e92;
+    color: white;
+    padding: 20px;
+    margin: 0px;
+    font-family: "BBH Sans Bogle", sans-serif;
+    font-size: 100px;
+}
+
+nav {
+    background-color: rgb(253, 56, 102);
+    text-align: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #065867;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    color: #00343a;
+    border-bottom: 2px solid #065867;
+    display: inline-block;
+    font-family: "Abril Fatface", serif;
+    margin: 10px;
+
+}
+
+p {
+    font-family: "Domine", serif;
+    margin: 10px
+}
+
+li {
+    font-family: "Domine", serif;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    margin: 20px;
+}
+
+.about-container img {
+    display: flex;
+    border-radius: 100px;
+    border: 2px solid;
+    margin: 10px;
+}
+
+.about-container p {
+    max-width: 600px;
+    text-align: justify;
+}
+
+
+table {
+    width: 50%;
+    margin: 10px;
+    border-collapse: collapse
+}
+
+table,
+th,
+td {
+    border: 1px solid #078e92;
+    text-align: center;
+    padding: 10px;
+    font-family: "Domine", serif;
+}
+
+th {
+    background-color: #fd3866;
+    color: white;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin-top: 10px;
+    font-family: "Domine", serif;
+}
+
+input,
+textarea,
+button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #078e92;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: "Domine", serif;
+}
+
+button:hover {
+    background-color: #065867;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
