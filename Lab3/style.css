@@ -1,0 +1,248 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f3f4f6;
+    color: #333;
+}
+
+nav {
+    background-color: rgb(253, 56, 102);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+#side {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+}
+
+nav a:hover {
+    background-color: #065867;
+    border-radius: 5px;
+}
+
+
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+    flex-wrap: wrap;
+}
+
+.main-text {
+    width: 50%;
+    min-width: 280px;
+    text-align: left;
+}
+
+.main-text .t1 {
+    font-size: 2.8rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.main-text .t2 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: #065867;
+}
+
+.main_illustration {
+    width: 50%;
+    min-width: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+#pfp {
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    border: 3px solid white;
+    object-fit: cover;
+}
+
+
+h2 {
+    color: #00343a;
+    font-family: "Abril Fatface", serif;
+    text-align: left;
+    margin: 40px 0 10px 40px;
+}
+
+.about-container {
+    padding: 0 40px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+
+.table-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px 40px;
+}
+
+.skill-card {
+    background-color: #fd3866;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    transition: 0.3s;
+}
+
+.skill-card:hover {
+    transform: translateY(-6px);
+}
+
+
+#projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+    padding: 20px 40px;
+}
+
+.p1, .p2, .p3 {
+    padding: 25px 15px 60px 15px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+.p1 { background-color: #078e92; }
+.p2 { background-color: #fd3866; }
+.p3 { background-color: #fd6484; }
+
+
+.table-container2 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 450px;
+    width: 100%;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #078e92;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #065867;
+}
+
+
+.back-top-but-cont {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.back-top-but {
+    background-color: #078e92;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+}
+
+.back-top-but:hover {
+    background-color: #fd3866;
+    color: white;
+}
+
+
+footer {
+    background-color: #065867;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+
+.git {
+    width: 35px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .main-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .main-text {
+        text-align: center;
+        width: 100%;
+    }
+
+    h2 {
+        margin-left: 20px;
+        text-align: left;
+    }
+
+    .about-container {
+        padding: 0 20px;
+    }
+
+    #projects, .table-container {
+        padding: 0 20px;
+    }
+}
