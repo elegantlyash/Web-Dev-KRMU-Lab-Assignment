@@ -29,7 +29,7 @@ function runQuiz() {
         }
     }
 
-   
+               
     alert(` Quiz Completed!\nYour final score is: ${score}/${quizQuestions.length}`);
 }
 
