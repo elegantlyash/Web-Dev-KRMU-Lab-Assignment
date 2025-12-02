@@ -33,5 +33,5 @@ function runQuiz() {
     alert(` Quiz Completed!\nYour final score is: ${score}/${quizQuestions.length}`);
 }
 
-// Step 5: Run the function (can also be called manually)
+
 runQuiz();
